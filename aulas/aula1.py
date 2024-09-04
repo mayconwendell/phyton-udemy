@@ -2,16 +2,16 @@ camisas=50
 calcas=30
 sapatos=43
 
-string="bob"
-string="ana"
-string="ted"
+funcionario1="bob"
+funcionario2="ana"
+funcionario3="ted"
 
 if(camisas > calcas):
-    calcas=calcas+camisas-calcas
+    print(calcas= 30 + 50 - 30)
 
 if(camisas+calcas+sapatos > 100):
-    bob=""
+    print(demita="funcionario1")
 else:
-    ted=""    
+    print(demita="funcionario3") 
 
 print('Hello, World')
