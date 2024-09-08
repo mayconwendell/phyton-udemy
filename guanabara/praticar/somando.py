@@ -22,3 +22,13 @@ n6 = float(input("Digite outro numero: "))
 ex = n5 + n6 
 
 print("A soma dos números com ponto flutuante é ", ex)
+
+#teste
+
+n8 = int(input("Digite um numero: "))
+n7 = int(input("Digite outro numero: "))
+
+resultado = n7 + n8
+
+#print('A soma entre', n7, 'e', n8, 'números vale', resultado)
+print("A soma entre {} e {} vale {}".format(n1, n2 ,resultado))
