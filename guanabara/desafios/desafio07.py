@@ -7,5 +7,6 @@ n3 = float(input("Terceira nota: "))
 
 media = (n1 + n2 + n3) /3
 
-#Utilizei :.2 para dizer que eu quero que apareça somente duas casas decimais
-print("A media do aluno no semestre foi de {:.2}".format(media))
+#Utilizei :.1f para dizer que eu quero que apareça somente uma 
+#casa decimal flutuantes(após o ponto).
+print("A media do aluno no semestre foi de {:.1f}".format(media))
