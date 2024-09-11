@@ -10,12 +10,13 @@ print(frase.count('a'))
 
 print(len(frase))
 
-print(frase.count())
+print(frase.count('F'))
 
+print(frase.lower().find("flamengo"))
 
+print("Flamengo" in frase)
 
-
-
+print(frase.split())
 
 
 
