@@ -9,6 +9,6 @@ km = float(input("Digite quantos Km/h você estava dirigindo: "))
 multa = 7 * (km%80)
 
 if km >80:
-    print(f'Você estava andando à {km} Km/h, você foi multado em {multa:.1f}')
+    print(f'Você estava andando à {km} Km/h, você foi multado em R${multa:.1f}')
 else:
     print(f'Você estava andando à {km} Km/h, continua se policiando no volante!')
